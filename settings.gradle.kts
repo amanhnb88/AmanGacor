@@ -17,4 +17,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "AmanGacor"
-include(":App", ":Moviebox")
+include(":Moviebox")
