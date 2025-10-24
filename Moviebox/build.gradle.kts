@@ -1,27 +1,27 @@
 // use an integer for version numbers
 version = 4
 
-
 cloudstream {
     language = "en"
-    // All of these properties are optional, you can safely remove them
 
-    // description = "Lorem Ipsum"
-     authors = listOf("Hexated")
+    // Semua properti di bawah ini opsional, bisa dihapus jika tidak perlu
+    description = "Example plugin by Hexated"
+    authors = listOf("Hexated")
 
     /**
-     * Status int as the following:
+     * Status:
      * 0: Down
      * 1: Ok
      * 2: Slow
      * 3: Beta only
-     * */
-    status = 1 // will be 3 if unspecified
+     */
+    status = 1
+
     tvTypes = listOf(
         "TvSeries",
         "Movie",
         "Anime",
-        "AsianDrama",
+        "AsianDrama"
     )
 
     iconUrl = "https://moviebox.ph/favicon.ico"
